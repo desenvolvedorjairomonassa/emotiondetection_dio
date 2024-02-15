@@ -14,3 +14,19 @@ The input will be a string with 4 numbers separated by commas (,) representing t
 
 Output
 The expected output is the name of the predominant emotion.
+
+
+challenge 2
+--------
+
+Challenge
+You are part of a development team at a financial institution. Recently, the team was given the important task of improving the fraud detection system in financial transactions. To do this, it is necessary to develop an algorithm, without the use of libraries, capable of identifying suspicious patterns in bank transactions equal to or greater than the corresponding fraud limit for that account.
+
+Input
+The input consists of: n, which corresponds to the number of transactions to be analyzed, followed by lists referring to the transactions, each consisting of three values: an id, the transaction value and the fraud threshold value.
+
+Output
+The expected output is the ids of the suspicious transactions.
+
+
+
