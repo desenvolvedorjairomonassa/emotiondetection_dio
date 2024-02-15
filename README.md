@@ -28,5 +28,29 @@ The input consists of: n, which corresponds to the number of transactions to be 
 Output
 The expected output is the ids of the suspicious transactions.
 
+challenge 3
+-----------
+
+Challenge
+You are part of a team that is developing Machine Learning models to identify the probability of default on loans granted by a financial institution. After training the models, your task is to evaluate their performance using some evaluation metrics. In this context, the challenge is to create an algorithm that receives n confusion matrices and should return the index, accuracy, and precision of the matrix that performs best based on the calculation of these metrics. Remembering that:
+
+• Accuracy is calculated by the formula: (TP + TN) / (TP + FP + FN + TN)
+• Precision is calculated by the formula: TP / (TP + FP)
+
+Where:
+
+• TP (True Positive): Cases where the model correctly predicted the positive class.
+• FP (False Positive or Type I Error): Cases where the model incorrectly predicted the positive class.
+• FN (False Negative or Type II Error): Cases where the model incorrectly predicted the negative class.
+• TN (True Negative): Cases where the model correctly predicted the negative class.
+
+Input
+The input consists of a string composed of: n, representing the number of confusion matrices, followed by the values that make up the n matrices.
+
+Each matrix consists of four values, where the first two represent the first row of the matrix, composed of true positives (TP) and false positives (FP); the last two values represent the second row, which is formed by false negatives (FN) and true negatives (TN). The two rows and the values that compose them are separated by commas.
+
+Output
+The expected outcome includes the index value, accuracy, and precision (rounded to two decimal place) of the best-performing matrix based on the calculation of these metrics.
+
 
 
